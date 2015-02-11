@@ -76,5 +76,5 @@ end
 ### Bonus
 
 1. Style your application!
-2. Add a column to the students table called isSquadLeader    which is a boolean. When you list out the students in a squad, their name should be bolded.
+2. Add a column to the students table called `is_squad_leader`, which is a `boolean`. When you list out the students in a squad, their name should be bolded.
 2. Use your knowledge of JavaScript and AJAX to make the page more dynamic.
