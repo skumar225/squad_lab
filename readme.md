@@ -1,6 +1,6 @@
 ## Squad Lab
 
-For the long weekend, we'd like you to combine your knowledge of Sinatra + SQL to build an app that 
+For the long weekend, we'd like you to combine your knowledge of Sinatra + SQL to build an app to create, read, update and delete squads and students in their respective squads.
 
 ### Data
 
