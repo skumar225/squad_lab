@@ -9,6 +9,7 @@ You should have two tables, squads and students. Keep this relationship in mind 
 Students should have a/an:
 
 1. Unique ID  
+2. Squad ID
 1. Name
 2. Age
 3. Spirit Animal
@@ -19,7 +20,7 @@ Each squad should have a:
 1. Name
 2. Mascot
 
-Your squads table should have a foreign key that links it to the students table.
+Your students table should have a foreign key that links it to the squads table.
 
 ### BEFORE YOU ADD ANY ROUTES OR EVEN A LINE OF RUBY CODE, TEST YOUR DATA IN PSQL AND MAKE SURE YOU CAN SUCCESSFULLY JOIN THE TABLES
 
