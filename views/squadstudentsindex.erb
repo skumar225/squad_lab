@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Here are the Students of the Squad</h1>
+     <% @students.each do |student| %>
+  <p>
+    <%= student["name"] %>
+  </p>
+  
+   <p>
+      <a href="/squads/<%= @squad["id"] %>/students/<%= student["id"] %>">Show Student Info</a>
+  </p>
+  
+  <p>
+    <a href="/squads/<%= @squad["id"] %>/students/<%= student["id"] %>/edit">Edit Student</a>
+
+  </p>
+  
+  <% end %>
+  
+  <p>r
+    <a href="/squads/:id/students/new">Add a New Student</a>
+  </p>
+  <p>
+    <a href="/squads">homepage</a>
+  </p>
+</body>
+</html>
+
+
+
+   
+ 
+    

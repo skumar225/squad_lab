@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Edit Student Info</h1>
+
+  <form action="/squads/<%= @squad["id"] %>/students/<%= @student["id"] %>" method="POST">
+    <input type="hidden" name="_method" value="put">
+    <label for="name">Student Name: </label>
+    <input type="text" name="name" autofocus>
+    <label for="age">Age: </label>
+    <input type="text" name="age">
+    <label for="spirit_animal">Spirit Animal: </label>
+    <input type="text" name="spirit_animal">
+
+    <input type="submit" value="Edit Student">
+
+  </form>
+
+   <form action="/squads/<%= @squad["id"] %>/students/<%= @student["id"] %>" method="POST">
+    <input type="hidden" name="_method" value="delete">
+
+      <input type="submit" value="Delete Student">  
+  </form>
+  
+</body>
+</html>
